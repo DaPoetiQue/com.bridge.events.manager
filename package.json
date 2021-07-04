@@ -1,7 +1,7 @@
 {
-    "name": "com.bridge.ui.manager",
+    "name": "com.bridge.events.manager",
     "version": "1.0.0",
-    "displayName": "3ridge UI Manager",
+    "displayName": "3ridge Events Manager",
     "description": "Manages the app's user interface transitions.",
     "unity": "2019.1",
     "unityRelease": "0b5",
@@ -10,9 +10,11 @@
    "keywords": [
       "Bridge",
       "3ridge",
-      "UI",
+      "Events",
       "Manager",
-      "UI Manager"
+      "Events Manager",
+      "Bridge Events Manager",
+      "3ridge Events Manager"
     ],
     "author": {
       "name": "Hlulani Maswanganyi",
