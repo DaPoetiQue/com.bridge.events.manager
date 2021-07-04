@@ -2,7 +2,7 @@
     "name": "com.bridge.events.manager",
     "version": "1.0.0",
     "displayName": "3ridge Events Manager",
-    "description": "Manages the app's user interface transitions.",
+    "description": "Manages the app's events.",
     "unity": "2019.1",
     "unityRelease": "0b5",
     "dependencies": {
