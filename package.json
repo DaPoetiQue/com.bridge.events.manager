@@ -5,9 +5,7 @@
     "description": "Manages the app's events.",
     "unity": "2019.1",
     "unityRelease": "0b5",
-    "dependencies": {
-      "com.bridge.debugger": "https://github.com/DaPoetiQue/com.bridge.debugger"
-   },
+    "dependencies": {},
    "keywords": [
       "Bridge",
       "3ridge",
