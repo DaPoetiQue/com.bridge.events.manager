@@ -6,7 +6,7 @@
     "unity": "2019.1",
     "unityRelease": "0b5",
     "dependencies": {
-      "com.bridge.debugger": "https://github.com/DaPoetiQue/com.redical-gamez.runtime-debug-tool.git"
+      "com.bridge.debugger": "https://github.com/DaPoetiQue/com.bridge.debugger.git"
    },
    "keywords": [
       "Bridge",
