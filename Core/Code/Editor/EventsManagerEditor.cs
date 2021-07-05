@@ -16,7 +16,7 @@ namespace Bridge.Core.Events
             UnityEngine.Debug.Log("<color=white>-->></color> <color=green> Success </color>:<color=white> An events manager has been created successfully.</color>");
         }
 
-        [MenuItem("Bridge/Create/Events Manager", true)]
+        [MenuItem("3ridge/Create/Events Manager", true)]
         private static bool CanCreateEventsManager()
         {
             return FindObjectOfType<EventsManager>() == null;
