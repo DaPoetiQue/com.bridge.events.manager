@@ -5,10 +5,10 @@ namespace Bridge.Core.Events
     public class EventsManagerEditor : Editor
     {
         
-        [MenuItem("Bridge/Create/Events Manager")]
+        [MenuItem("3ridge/Create/Events Manager")]
         private static void CreateEventsManager()
         {
-            var eventsManager = new UnityEngine.GameObject("_Events Manager");
+            var eventsManager = new UnityEngine.GameObject("_3ridge Events Manager");
             eventsManager.AddComponent<EventsManager>();
 
             if(Selection.activeGameObject != null) eventsManager.transform.SetParent(Selection.activeGameObject.transform);
