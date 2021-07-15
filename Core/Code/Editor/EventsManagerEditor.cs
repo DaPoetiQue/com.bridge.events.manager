@@ -1,6 +1,7 @@
 using UnityEditor;
+using Bridge.Core.App.Events;
 
-namespace Bridge.Core.Events
+namespace Bridge.Core.UnityEditor.Events
 {
     public class EventsManagerEditor : Editor
     {

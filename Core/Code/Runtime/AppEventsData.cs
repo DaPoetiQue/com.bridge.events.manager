@@ -1,7 +1,7 @@
 using System;
 using UnityEngine.Events;
 
-namespace Bridge.Core.Events
+namespace Bridge.Core.App.Events
 {
     public class AppEventsData
     {

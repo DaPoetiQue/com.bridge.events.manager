@@ -1,6 +1,6 @@
 using Bridge.Core.Debug;
 
-namespace Bridge.Core.Events
+namespace Bridge.Core.App.Events
 {
     public class EventsManager : MonoDebug
     {

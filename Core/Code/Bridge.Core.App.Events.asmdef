@@ -1,6 +1,6 @@
 {
-    "name": "Bridge.Core.Events",
-    "rootNamespace": "Bridge.Core.Events",
+    "name": "Bridge.Core.App.Events",
+    "rootNamespace": "Bridge.Core.App.Events",
     "references": [
         "GUID:5ef81270e65190e4babbe8d8e6e466c5"
     ],
