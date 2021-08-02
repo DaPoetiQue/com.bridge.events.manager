@@ -37,14 +37,14 @@ namespace Bridge.Core.App.Events
             {
                 if(onAppInitializedEvent == null) onAppInitializedEvent = new AppEventsData.OnAppInitializedEvent();
 
-                Log(LogData.LogLevel.Debug, this, "On app initialized event created successfully.");
+                Log(LogLevel.Debug, this, "On app initialized event created successfully.");
                 return onAppInitializedEvent;
             }
 
             set
             {
                 onAppInitializedEvent = value;
-                Log(LogData.LogLevel.Debug, this, "On app initialized event set.");
+                Log(LogLevel.Debug, this, "On app initialized event set.");
             }
         }
 
@@ -54,14 +54,14 @@ namespace Bridge.Core.App.Events
             {
                 if(onAppContentLoadedEvent == null) onAppContentLoadedEvent = new AppEventsData.OnAppContentLoadedEvent();
 
-                Log(LogData.LogLevel.Debug, this, "On app content loaded successfully.");
+                Log(LogLevel.Debug, this, "On app content loaded successfully.");
                 return onAppContentLoadedEvent;
             }
 
             set
             {
                 onAppContentLoadedEvent = value;
-                Log(LogData.LogLevel.Debug, this, "On app content loaded event set.");
+                Log(LogLevel.Debug, this, "On app content loaded event set.");
             }
         }
 
@@ -71,14 +71,14 @@ namespace Bridge.Core.App.Events
             {
                 if(onAppViewChangedEvent == null) onAppViewChangedEvent = new AppEventsData.OnAppViewChangedEvent();
 
-                Log(LogData.LogLevel.Debug, this, "On app view changed event created successfully.");
+                Log(LogLevel.Debug, this, "On app view changed event created successfully.");
                 return onAppViewChangedEvent;
             }
 
             set
             {
                 onAppViewChangedEvent = value;
-                Log(LogData.LogLevel.Debug, this, "On app view changed event set.");
+                Log(LogLevel.Debug, this, "On app view changed event set.");
             }
         }
 
@@ -88,31 +88,34 @@ namespace Bridge.Core.App.Events
             {
                 if(onSelectableUIEvent == null) onSelectableUIEvent = new AppEventsData.OnSelectableUIEvent();
 
-                Log(LogData.LogLevel.Debug, this, "Selectable UI selected.");
+                Log(LogLevel.Debug, this, "Selectable UI selected.");
                 return onSelectableUIEvent;
             }
 
             set
             {
                 onSelectableUIEvent = value;
-                Log(LogData.LogLevel.Debug, this, "On selectable UI event set.");
+                Log(LogLevel.Debug, this, "On selectable UI event set.");
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         public AppEventsData.OnShowLoadingScreenUIEvent OnShowLoadingScreenUIEvent
         {
             get
             {
                 if(onShowLoadingScreenUIEvent == null) onShowLoadingScreenUIEvent = new AppEventsData.OnShowLoadingScreenUIEvent();
 
-                Log(LogData.LogLevel.Debug, this, "On show loading screen event.");
+                Log(LogLevel.Debug, this, "On show loading screen event.");
                 return onShowLoadingScreenUIEvent;
             }
 
             set
             {
                 onShowLoadingScreenUIEvent = value;
-                Log(LogData.LogLevel.Debug, this, "On show loading screen event.");
+                Log(LogLevel.Debug, this, "On show loading screen event.");
             }
         }
 
