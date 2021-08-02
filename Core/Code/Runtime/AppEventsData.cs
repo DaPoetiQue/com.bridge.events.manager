@@ -57,5 +57,18 @@ namespace Bridge.Core.App.Events
         }
 
         #endregion
+
+        #region Call Backs
+
+        public class CallBackResults
+        {
+            public bool success;
+            public string successValue;
+
+            public bool error;
+            public string errorValue;
+        }
+
+        #endregion
     }
 }
